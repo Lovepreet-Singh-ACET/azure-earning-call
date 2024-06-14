@@ -1,0 +1,5 @@
+.env
+langkit/__pycache__
+scripts/__pycache__
+README.md
+.gitignore

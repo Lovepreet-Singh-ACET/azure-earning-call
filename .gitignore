@@ -1,0 +1,9 @@
+.streamlit
+data
+cli.py
+.env
+data.db
+scripts/__pycache__
+langkit/__pycache__
+docker-compose.yml
+Dockerfile copy
