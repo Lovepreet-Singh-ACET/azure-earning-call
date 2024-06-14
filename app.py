@@ -52,14 +52,14 @@ def init_connection():
 client = init_connection()
 
 # Initialize MongoDB instance
-mongo = MongoDB(client, os.getenv('DATABASE'), os.getenv("collection_name"))
+mongo = MongoDB(client, os.getenv('DATABASE'), os.getenv("COLLECTION_NAME"))
 
 #st.title("BlackRock AI Watchtower (LLMs)")s
 st.title("Information Extraction Example from Earnigns Calls of NIFTY 50 Universe")
 
 # st.markdown("""
 # Objective of the app is to show AI Watchtower components which helps in responsible use of LLM applications. In this case study we are building information extraction app \
-# from eanings calls of NIFTY 50 universe. While extracting information we are showcasing AI Watchtower components in each LLM execution. AI Watchtower is a generic tool and can
+# from earnings calls of NIFTY 50 universe. While extracting information we are showcasing AI Watchtower components in each LLM execution. AI Watchtower is a generic tool and can
 # be applied in any LLM based applications.
 # """)
         
